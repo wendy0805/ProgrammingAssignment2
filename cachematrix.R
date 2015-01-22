@@ -59,14 +59,12 @@ cacheSolve <- function(x, ...) {
 
 ## You could try to assign this function to a variable vec set below:
 
-x = matrix(c(1,1/4,2,2/3), # the data elements 
-           nrow=2,              # number of rows 
-           ncol=2,              # number of columns 
-           byrow = TRUE)  
+## x = matrix(c(1,1/4,2,2/3), # the data elements 
+##           nrow=2,              # number of rows 
+##           ncol=2,              # number of columns 
+##           byrow = TRUE)  
 
-x
+##vec <- makeCacheMatrix(x)
+##xInverse <- cacheSolve(vec)
 
-vec <- makeCacheMatrix(x)
-xInverse <- cacheSolve(vec)
-
-xInverse
+##xInverse
